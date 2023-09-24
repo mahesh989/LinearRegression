@@ -6,3 +6,7 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv('./README.md')
 
+
+
+df.head()
+df.duplicated().sum()
